@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for item in site.art %}
+<article class='item'>
+  <div class='item-content'>
+    <h2  class='item-title'> {{ item.title }} </h2>
+    {{ item.content | markdownify }}
+  </div>
+  <img class='item-image' src='{{ item.image }}' />
+</article>
+{% endfor %}
