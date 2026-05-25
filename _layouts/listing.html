@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-{% for item in site.art %}
+{% for item in site[page.collection] %}
 <article class='item'>
   <div class='item-content'>
     <h2  class='item-title'> {{ item.title }} </h2>
