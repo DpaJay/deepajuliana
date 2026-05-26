@@ -1,35 +1,34 @@
-/* Flex*/
-nav {
-    display: flex;
-    flex-direction: row;
-}
+/* Navigation */
+nav         { display: flex;
+              flex-direction: row;
+            }
 .nav-header { flex-grow: 1; }
-.nav-item { flex-grow: 0; }
+.nav-item   { flex-grow: 0; }
+.nav-item.nav-current { text-decoration: underline;
+                        font-weight: bold;
+                      }
+nav > *     { padding: 1ex; }
+.nav-item   { text-decoration: none;
+              color: black;
+            }
 
-nav > * {
-    padding: 1ex;
-}
-.item {
-  display: flex;
-  flex-direction: row;
-}
-.item > * { padding: 0.5em ; }
-.item-content { flex: 1; }
-.item-image { flex: 2; }
+/* Art/Design/Coocreation listings */
 
+.item { display: flex;
+        flex-direction: row;
+      }
+.item > * { padding: 1em ; }
+.item-content   { flex: 1; }
+.item-image     { flex: 2; }
 /* I'm not sure why images aren't restrained by their flex sizes */
-.item-image {
-    max-height: 50em;
-    max-width: 66%;
-}
-
-/* padding & margin */
-.item { padding: 2em; }
-
-/* Styling */
+.item-image { max-height: 50em;
+               max-width: 66%;
+            }
+/* other */
+/* Limit width of pages so wide screens dont get uncomfortable. */
+* { font-family: arial; }
 body { max-width: 80em;
        margin-left: auto;
        margin-right: auto;
      }
 
-* { font-family: arial; }

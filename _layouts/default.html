@@ -8,9 +8,9 @@
   <body>
     <nav>
       <span class='nav-header'> Deepa Juliana </span>
-      <a class='nav-item' href="{{site.baseurl}}/art">Art</a>
-      <a class='nav-item' href="{{site.baseurl}}/design">Design</a>
-      <a class='nav-item' href="{{site.baseurl}}/cocreation">Co-creation</a>
+      <a class='nav-item {%if page.collection == "art"        %}nav-current{% endif %}' href="{{site.baseurl}}/art">Art</a>
+      <a class='nav-item {%if page.collection == "design"     %}nav-current{% endif %}' href="{{site.baseurl}}/design">Design</a>
+      <a class='nav-item {%if page.collection == "cocreation" %}nav-current{% endif %}' href="{{site.baseurl}}/cocreation">Co-creation</a>
     </nav>
     <section>
       {{ content }}
