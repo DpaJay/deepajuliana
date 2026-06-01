@@ -1,10 +1,10 @@
 ---
-title: Oivi Technology
+title: Oivi Diagnostic Technology
 image: 3.ExhibitionDesign.jpg
 ---
 
-Historically the center of the Ryukyu Kingdom, Okinawa long served as a maritime
-trading hub and cultural gateway; the kingdom participated in the Chinese
-tributary system---maintaining formal tribute relations with the Ming and
-Qing---and retained distinct statehood until it was incorporated into Japan as
-Okinawa Prefecture in 1879 following the Ryukyu Disposition.
+Oivi developed a high-precision and automated retinal camera with AI-driven analysis for instant, accurate screening of eye diseases. Their portable AI-powered device enables quick, reliable screenings in clinics, outreach programs, and retail settings, ensuring timely intervention and preventing vision loss.
+
+
+
+User Experience Design |  Service Design |  Research & Testing
