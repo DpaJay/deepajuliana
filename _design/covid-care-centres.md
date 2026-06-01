@@ -9,4 +9,4 @@ Indian Institute for Human Settlements (IIHS) developed a set of  Guidelines fo
 
 
 
-Severe Acute Respiratory Infections Facility Design |  Visual Design
+Severe Acute Respiratory Infections Facility Design \|  Visual Design
